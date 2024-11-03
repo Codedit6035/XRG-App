@@ -18,13 +18,13 @@ const GhaziSection = () => {
                 <p className='text-justify '>
                 Dr. Ghazi Kablouti is the founder and CEO of XRG Impact Management Advisory, a firm dedicated to helping organizations achieve sustainable growth and navigate complex challenges. With a Ph.D. in [Field/Discipline] from [University Name] and over [X years] of experience in [relevant fields like corporate strategy, sustainability], Dr. Kablouti is a respected expert in impact management and strategic consulting. His work focuses on aligning corporate goals with measurable social and environmental impact, making him a trusted advisor to corporations, financial institutions, and regulatory bodies worldwide.
                 </p> <br />
-                <p className='text-justify '>
+                <p className='text-justify pb-5 '>
                 Dr. Ghazi Kablouti is the founder and CEO of XRG Impact Management Advisory, a firm dedicated to helping organizations achieve sustainable growth and navigate complex challenges. With a Ph.D. in [Field/Discipline] from [University Name] and over [X years] of experience in [relevant fields like corporate strategy, sustainability], Dr. Kablouti is a respected expert in impact management and strategic consulting. His work focuses on aligning corporate goals with measurable social and environmental impact, making him a trusted advisor to corporations, financial institutions, and regulatory bodies worldwide.
                 </p>
                 {/* buttons links */}
-                <div>
-                    <button className='border'>Resume</button>
-                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><FaLinkedin /></a>
+                <div className='flex gap-5'>
+                    <button className='border p-1 boder-sky-600'>Resume</button>
+                    <a href="https://www.linkedin.com/in/ghazikablouti/ "  target="_blank"><FaLinkedin className=' text-4xl text-sky-600' /></a>
 
                 </div>
             </div>
